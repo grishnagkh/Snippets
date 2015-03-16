@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2006-2011 Christian Plattner. All rights reserved.
  */
-package bloomfilter;
+package at.grish.data.bloomfilter;
 
 import java.io.Serializable;
 

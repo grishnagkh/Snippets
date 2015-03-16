@@ -1,4 +1,4 @@
-package udp;
+package at.grish.net.udp;
 /*
  * MessageHandler.java
  *

@@ -1,11 +1,11 @@
-package udp.test;
+package at.grish.net.udp.test;
 
 import java.net.UnknownHostException;
 import java.util.Scanner;
 
-import udp.Message;
-import udp.MsgObserver;
-import udp.UDPMessageHandler;
+import at.grish.net.udp.Message;
+import at.grish.net.udp.MsgObserver;
+import at.grish.net.udp.UDPMessageHandler;
 
 public class UDPTest {
 

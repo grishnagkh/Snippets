@@ -1,3 +1,4 @@
+package at.grish.io;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
@@ -34,12 +35,12 @@ public class FileHandler {
 	 * @param dir
 	 *            boolean for recursion
 	 */
-	public static void creatFile(String path, boolean dir) {
+	public static void createFile(String path, boolean dir) {
 		File file = new File(path);
 		System.out.println(path);
 		try {
 			if (!file.getParentFile().exists()) {
-				creatFile(file.getParent(), true);
+				createFile(file.getParent(), true);
 			}
 			if (dir)
 				file.mkdir();

@@ -19,7 +19,7 @@
  * MA 02110-1301 USA
  */
 
-package bloomfilter;
+package at.grish.data.bloomfilter;
 
 import java.io.Serializable;
 import java.security.NoSuchAlgorithmException;
