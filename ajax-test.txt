@@ -1,1 +1,1 @@
-This text is asynchrnocally loaded via the internet.
+This text is asynchronically loaded via the internet.
